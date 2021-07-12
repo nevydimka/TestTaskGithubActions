@@ -35,6 +35,9 @@ jobs:
       
     - name: Create directory
       run : mkdir test_web
+      
+    - name: Create emty file
+      run : echo test.py
    
     - name: Git clone my repo
       uses: actions/checkout@v1   
